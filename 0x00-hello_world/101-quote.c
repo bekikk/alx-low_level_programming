@@ -1,14 +1,14 @@
 #include <stdio.h>
 /**
-*main - entery point
+*main - outputs to string
 *
-*Description: Prints out string with out printf
+*Description: Prints out "and that piece of art is useful..." without printf
 *
-*return: 1
+*Return: 1
 */
 int main(void)
 {
-char *s = "and that piece of art is useful\" - Dora Kapar, 2015-10-19\n";
+char *s = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 long l = 59;
 long fd = 1;
 long syscall = 1;
