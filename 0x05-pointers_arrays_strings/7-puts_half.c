@@ -14,6 +14,10 @@ length++;
 }
 return (length);
 }
+/**
+*puts_half - no return value
+*@str: char str
+*/
 void puts_half(char *str)
 {
 int length, i, half;

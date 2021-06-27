@@ -14,6 +14,10 @@ length++;
 }
 return (length);
 }
+/**
+*rev_string - no return value
+*@s: char s
+*/
 void rev_string(char *s)
 {
 int length = _strlen(s);

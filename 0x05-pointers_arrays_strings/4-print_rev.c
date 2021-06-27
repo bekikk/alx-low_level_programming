@@ -11,6 +11,10 @@ while (*s)
 s++;
 return (s - p);
 }
+/**
+*print_rev - no return value
+*@s: char s
+*/
 void print_rev(char *s)
 {
 int size = _strlen(s);

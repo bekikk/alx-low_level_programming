@@ -14,6 +14,11 @@ prod = prod *base;
 }
 return (prod);
 }
+/**
+*numLength - returns length of number
+*@num: int num
+*Return: the answer
+*/
 int numLength(int num)
 {
 int length = 0;
@@ -28,13 +33,18 @@ length += 1;
 }
 return (length);
 }
+/**
+*putnchar - no return value
+*@num: intiger num
+*Return: number
+*/
 void putnchar(int num)
 {
 int length = numLength(num), j = length - 1, k, tmp2, digit1;
 if (num < 0)
 {
 _putchar('-');
-num = -1 *num;
+num = -1 * num;
 }
 if (num == 0)
 _putchar(48);
@@ -56,7 +66,7 @@ else
 digit1 = num / powB(10, j);
 _putchar(digit1 + 48);
 tmp2 = num;
-num -= powB(10, j) *digit1;
+num -= powB(10, j) * digit1;
 if (numLength(tmp2) - numLength(num) == 2)
 {
 _putchar(48);
@@ -67,6 +77,11 @@ j--;
 }
 }
 }
+/**
+*print_array - prints array
+*@a: int a
+*@n: int n
+*/
 void print_array(int *a, int n)
 {
 int i = 0;

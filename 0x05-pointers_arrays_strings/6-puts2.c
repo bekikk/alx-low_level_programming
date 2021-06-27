@@ -1,6 +1,7 @@
 #include "holberton.h"
 /**
 *_strlen - returns the length of a string
+*puts2 - no return value
 *@s: string s
 *Return: length of string
 */
@@ -14,6 +15,10 @@ length++;
 }
 return (length);
 }
+/**
+*puts2 - no return value
+*@str: char str
+*/
 void puts2(char *str)
 {
 int i;
