@@ -9,7 +9,7 @@
 int main(void)
 {
 srand(time(0));
-int num = rand();
-printf("%i\n", num);
+int r = rand();
+printf("%i\n", r);
 return (0);
 }
