@@ -14,7 +14,7 @@ if (argc == 3)
 {
 first = atoi(argv[1]);
 second = atoi(argv[2]);
-printf("%i\n", first * second);
+printf("%i\n", first *second);
 return (0);
 }
 printf("Error\n");
