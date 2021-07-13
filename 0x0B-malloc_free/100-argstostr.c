@@ -31,7 +31,7 @@ for (i = 0; i < ac; i++)
 len = _strlen(av[i]) + 1;
 total += len;
 }
-ptr = malloc(sizeof(char) *total + 1);
+ptr = malloc(sizeof(char) * total + 1);
 if (!ptr)
 return (NULL);
 for (i = 0; i < ac; i++)
