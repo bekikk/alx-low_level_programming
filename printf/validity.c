@@ -69,7 +69,7 @@ int i = 0;
 
 while (*(s + i) > 47 && *(s + i) < 58)
 {
-format->precision = format->precision * 10 + (int)(*(s + i) - 48);
+format->precision = format->precision * 10 + (int)(*(s + i) -48);
 format->replaced += 1;
 i++;
 }
